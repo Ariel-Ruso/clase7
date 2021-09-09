@@ -8,6 +8,18 @@
     font-family: 'open sans' sans-serif;
 }
 
+h2 {
+    font-size: 2.4em;
+}
+
+h3 {
+    font-size: 1.5em;
+}
+
+ul {
+    text-align: center;
+}
+
 img {
     filter: ;
 }
@@ -58,4 +70,77 @@ header img {
 
 .navList:hover {
     background-color: darkorchid;
+}
+
+.principal {
+    display: flex;
+    padding: 3%;
+    justify-content: space-between;
+}
+
+main {
+    width: 60%;
+}
+
+main .reporterName {
+    font-family: 'besley', serif;
+}
+
+main .foto {
+    max-width: 800px;
+}
+
+main main .newConstent {
+    display: flex;
+}
+
+main .newConstent p {
+    padding: 0 1%;
+    text-align: justify;
+}
+
+aside {
+    width: 30%;
+    border-left: 2px solid black;
+}
+
+aside .ads {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+aside img {
+    width: 90%;
+}
+
+.suscribe {
+    margin: auto;
+    border-top: 3px solid black;
+    background-color: rgb(217, 217, 226);
+    padding: 2% 0 2% 10%;
+    box-shadow: 3px 1px 15px 8px rgba(63, 59, 59, 0.356);
+    margin-bottom: 3%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* hermano */
+
+form label.userInfo {
+    justify-content: space-between;
+    display: flex;
+    width: 80%;
+}
+
+
+/* puedo usar px x tener flex */
+
+form input {
+    padding: 12px 20px;
+    margin: 8%;
 }
